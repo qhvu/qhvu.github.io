@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Huong Vu's Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" type="image/svg" href="images/logo.svg" size="64x64" />
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+
+				<!-- Navigation Bar -->
+				<div class="nav-bar">
+					<img class=logo src="images/logo.svg">
+					<div class="nav-bar-links">
+						<a href="index.html">Home</a>
+						<a href="projects.html">Projects</a>
+						<a href="resume.html">Resume</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Name + Title -->
+				<header>
+					<h3>Huong Vu</h3>
+					<h1>DevOps Intern at CureMetrix</h1>
+				</header>
+
+				<!-- About Me -->
+				<p class="aboutme_p">
+					<img src="images/headshot.jpg" alt class="headshot">
+					I earned my B.S. in Cognitive Science with a minor in Computer Science at <b>UC San Diego</b> in
+					June 2020.
+				</p>
+				<br>
+				<p class="aboutme_p">
+					My areas of interest include <b>full-stack development, machine learning, and web design</b>. My
+					curiosity for my work and passions makes me a motivated problem solver who values growth,
+					evolution, and flexibility.
+				</p>
+				<br>
+				<p class="aboutme_p">
+					Currently, I am a <b>DevOps</b> intern at an early breast cancer detection startup. I work with
+					<b>Docker, AWS Cloud Formation, and Bash</b> to write scripts for automation.
+				</p>
+				<br>
+				<p class="aboutme_p">
+					I am <b>actively seeking a position</b> at a hiring company. Please <b>contact me</b> if you are
+					interested in working with me and think I would make a good addition to your team! I look forward
+					to connecting with you.
+				</p>
+
+				<!-- Filter -->
+				<div class="controls">
+					<h2>Explore my Projects</h2>
+					<div class="filter_label">
+						<label>
+							<h4>Filter By Category:</h4>
+						</label>
+						
+						<button class="filter" data-filter=".ml">Machine Learning</button>
+						<button class="filter" data-filter=".ui-ux">UI/UX</button>
+						<button class="filter" data-filter=".soft-dev">Software Development</button>
+
+						<button id="reset" onclick="$('#Container').mixItUp('filter','')">Reset</button>
+						<button onclick="$('#Container').mixItUp('filter','all')">All</button>
+					</div>
+				</div>
+				<div id="Container" class="container">
+					<div class="fail-message"><span>No items were found matching the current filters.</span></div>
+
+					<!--Projects-->
+					<a href="projects.html#budgetbat">
+						<div class="mix ui-ux soft-dev" id="BudgetBat"></div>
+					</a>
+					<a href="projects.html#fitnection">
+						<div class="mix ui-ux" id="FitNection"></div>
+					</a>
+					<a href="projects.html#newsarticle">
+						<div class="mix ml" id="News Article Recommender"></div>
+					</a>
+					<a href="projects.html#emotion">
+						<div class="mix ml" id="Emotion Classifer"></div>
+					</a>
+					<a href="projects.html#housing">
+						<div class="mix ml" id="Housing Market Predictive Modeling"></div>
+					</a>
+
+					<div class="gap"></div>
+					<div class="gap"></div>
+				</div>
+
+				<!-- Footer -->
+				<div class="icon-container">
+					<ul>
+						<a href="https://github.com/qhvu" target="_blank">
+							<li class="social"><i class="fa fa-github fa-2x"></i></li>
+						</a>
+						<a href="https://www.linkedin.com/in/huong-qh-vu/" target="_blank">
+							<li class="social"><i class="fa fa-linkedin fa-2x"></i></li>
+						</a>
+						<a href="mailto:hqvu97@gmail.com?subject=Get%20In%20Touch" class="social_link">
+							<li class="social"><i class="fa fa-envelope-o fa-2x"></i></li>
+						</a>
+					</ul>
+				</div>
+
+				<!-- Copyright -->
+				<div class="copyright">
+						<li class="copyright_content">
+							Design: <a href="http://html5up.net">HTML5 UP</a>
+						</li>
+						<li class="copyright_content" style="float: right;">
+							© 2021 Huong Vu
+						</li>
+				</div>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/filter.js"></script>
+		<script src="mixitup-2/src/jquery.mixitup.js"></script>
+</body>
+
+</html>
