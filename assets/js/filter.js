@@ -5,7 +5,7 @@ $(function(){
     },
     controls: {
       toggleFilterButtons: true,
-      toggleLogic: 'and'
+      toggleLogic: 'or'
     },
     callbacks: {
       onMixEnd: function(state){
